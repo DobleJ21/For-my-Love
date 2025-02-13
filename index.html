@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Una Sorpresa de San Valentín</title>
+    <title>For my Love 💗</title>
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -89,7 +89,7 @@
             for (let i = 0; i < 50; i++) {
                 let heart = document.createElement("div");
                 heart.classList.add("hearts");
-                heart.innerHTML = "❤️";
+                heart.innerHTML = "💗";
                 heart.style.top = Math.random() * 100 + "%";
                 heart.style.left = Math.random() * 100 + "%";
                 heart.style.animationDelay = Math.random() * 5 + "s";
@@ -99,10 +99,10 @@
         </script>
     </div>
     <div class="container">
-        <h1>¡Sorpresa! 💖</h1>
-        <p id="question">¿Te gustaría ser mi San Valentín? Porque mi corazón ya ha decidido... ¡Eres tú! 😊</p>
+        <h1>Hoaaa mi amol </h1>
+        <p id="question">¿Te gustaría ser mi San Valentín?</p>
         <div class="button-container">
-            <button id="yes" onclick="accept()">¡Sí, claro! 💕</button>
+            <button id="yes" onclick="accept()">Siii</button>
             <button id="no" onclick="changeNoText()">No 😢</button>
         </div>
     </div>
@@ -115,9 +115,9 @@
         function changeNoText() {
             const noButton = document.getElementById("no");
             if (noClickCount === 0) {
-                noButton.innerHTML = "¿Segura? 🤔";
+                noButton.innerHTML = "Seguraaa";
             } else if (noClickCount === 1) {
-                noButton.innerHTML = "¿Polque no? 😢";
+                noButton.innerHTML = "Polque no 😞";
             } else {
                 moveNo();
             }
